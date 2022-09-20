@@ -1,0 +1,3 @@
+# reanimated-series-typescript
+Reactnative reanimated animations series with typescript (EXPO)...
+ Inspired by reactiive
