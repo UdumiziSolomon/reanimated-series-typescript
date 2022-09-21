@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { View, Text, StyleSheet, Dimensions } from 'react-native';
+import { StyleSheet } from 'react-native';
 import Animated , { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated';
 import { Page } from './components/Page';
 

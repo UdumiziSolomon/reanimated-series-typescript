@@ -16,7 +16,6 @@ const PanGestureIntro: FC = () => {
     const translateX = useSharedValue<number>(0)
     const translateY = useSharedValue<number>(0);
 
-
     // Function to handle the pan gesture
     const panGestureEvent = useAnimatedGestureHandler<PanGestureHandlerGestureEvent, ContextType>({
         onStart: (event, context) => {

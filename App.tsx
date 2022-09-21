@@ -5,7 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar, StyleSheet } from 'react-native';
 
 import useCachedResources from './hooks/useCachedResources';
-import { Intro, PanGestureIntro, ScrollViewInterpolate } from './domain' ;
+import { Intro, PanGestureIntro, ScrollViewInterpolate, ThemeSwitch } from './domain' ;
 
 const App = () => {
 
@@ -25,9 +25,13 @@ const App = () => {
           barStyle={'dark-content'}  
         />
         <GestureHandlerRootView>
+          {/* Independent components */}
+
           {/* <Intro /> */}
           {/* <PanGestureIntro /> */}
-          <ScrollViewInterpolate />
+          {/* <ScrollViewInterpolate /> */}
+          <ThemeSwitch />
+          
         </GestureHandlerRootView>
 
       </SafeAreaProvider>
