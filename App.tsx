@@ -37,7 +37,7 @@ const App = () => {
           {/* <PinchGesture /> */}
           {/* <SingleAndDoubleTap /> */}
           {/* <PanGestureScroll /> */}
-          <ColorPicker />
+          {/* <ColorPicker /> */}
 
         </GestureHandlerRootView>
 
