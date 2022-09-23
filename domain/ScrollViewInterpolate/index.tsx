@@ -13,7 +13,7 @@ const PAGE_TEXTS = [
 
 const ScrollViewInterpolate: FC = () => {
 
-  const translateScrollX = useSharedValue(0)
+  const translateScrollX = useSharedValue<number>(0)
 
   const scrollHandler = useAnimatedScrollHandler( (event) => {
     translateScrollX.value = event.contentOffset.x;

@@ -2,10 +2,13 @@ import {GestureHandlerRootView} from 'react-native-gesture-handler'
 
 import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { StatusBar, StyleSheet } from 'react-native';
+import { StatusBar, StyleSheet, Dimensions } from 'react-native';
 
 import useCachedResources from './hooks/useCachedResources';
-import { Intro, PanGestureIntro, ScrollViewInterpolate, ThemeSwitch } from './domain' ;
+import { Intro, PanGestureIntro, ScrollViewInterpolate, ThemeSwitch , PinchGesture, SingleAndDoubleTap, PanGestureScroll, ColorPicker} from './domain' ;
+
+const { width, height } = Dimensions.get('window');
+
 
 const App = () => {
 
@@ -30,8 +33,12 @@ const App = () => {
           {/* <Intro /> */}
           {/* <PanGestureIntro /> */}
           {/* <ScrollViewInterpolate /> */}
-          <ThemeSwitch />
-          
+          {/* <ThemeSwitch /> */}
+          {/* <PinchGesture /> */}
+          {/* <SingleAndDoubleTap /> */}
+          {/* <PanGestureScroll /> */}
+          {/* <ColorPicker /> */}
+
         </GestureHandlerRootView>
 
       </SafeAreaProvider>
@@ -43,7 +50,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    height,
+    width
   }
 })
 
