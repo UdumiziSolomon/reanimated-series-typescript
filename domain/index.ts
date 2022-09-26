@@ -9,6 +9,13 @@ import PinchGesture from './PinchGesture';
 import SingleAndDoubleTap from './SingleAndDoubleTap';
 import PanGestureScroll from './PanGestureScroll';
 import ColorPicker from './ColorPicker';
+import CircularProgressBar from './CircularProgressBar';
+import SwipeToDelete from './SwipeToDelete';
+import RippleEffect from './RippleEffect';
+import PerspectiveMenu from './PerspectiveMenu';
+import SlidingCounter from './SlidingCounter';
+import ClockLoader from './ClockLoader';
+import LayoutAnimation from './LayoutAnimation';
 
 
-export { Intro, PanGestureIntro, ScrollViewInterpolate, ThemeSwitch, PinchGesture, SingleAndDoubleTap, PanGestureScroll, ColorPicker  } ;
+export { Intro, PanGestureIntro, ScrollViewInterpolate, ThemeSwitch, PinchGesture, SingleAndDoubleTap, PanGestureScroll, ColorPicker, CircularProgressBar, SwipeToDelete, RippleEffect, PerspectiveMenu, SlidingCounter, ClockLoader, LayoutAnimation } ;

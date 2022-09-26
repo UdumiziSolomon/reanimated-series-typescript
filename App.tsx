@@ -5,7 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar, StyleSheet, Dimensions } from 'react-native';
 
 import useCachedResources from './hooks/useCachedResources';
-import { Intro, PanGestureIntro, ScrollViewInterpolate, ThemeSwitch , PinchGesture, SingleAndDoubleTap, PanGestureScroll, ColorPicker} from './domain' ;
+import { Intro, PanGestureIntro, ScrollViewInterpolate, ThemeSwitch , PinchGesture, SingleAndDoubleTap, PanGestureScroll, ColorPicker, CircularProgressBar, SwipeToDelete, RippleEffect, PerspectiveMenu, SlidingCounter, ClockLoader, LayoutAnimation } from './domain' ;
 
 const { width, height } = Dimensions.get('window');
 
@@ -38,6 +38,13 @@ const App = () => {
           {/* <SingleAndDoubleTap /> */}
           {/* <PanGestureScroll /> */}
           {/* <ColorPicker /> */}
+          {/* <CircularProgressBar />  */}
+          {/* <SwipeToDelete /> */}
+          <RippleEffect />
+          {/* <PerspectiveMenu /> */}
+          {/* <SlidingCounter /> */}
+          {/* <ClockLoader /> */}
+          {/* <LayoutAnimation /> */}
 
         </GestureHandlerRootView>
 
