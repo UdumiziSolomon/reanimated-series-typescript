@@ -40,7 +40,7 @@ const App = () => {
           {/* <ColorPicker /> */}
           {/* <CircularProgressBar />  */}
           {/* <SwipeToDelete /> */}
-          <RippleEffect />
+          {/* <RippleEffect /> */}
           {/* <PerspectiveMenu /> */}
           {/* <SlidingCounter /> */}
           {/* <ClockLoader /> */}

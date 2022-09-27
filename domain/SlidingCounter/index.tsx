@@ -1,5 +1,7 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React, { FC } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+
+import Counter from './components/Counter';
 
 const SlidingCounter = () => {
   return (
@@ -11,4 +13,4 @@ const SlidingCounter = () => {
 
 export default SlidingCounter
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});

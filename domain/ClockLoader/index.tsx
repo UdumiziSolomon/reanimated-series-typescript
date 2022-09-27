@@ -1,7 +1,8 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React, { FC } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import Square from './components/Square';
 
-const ClockLoader = () => {
+const ClockLoader: FC = () => {
   return (
     <View>
       <Text>ClockLoader</Text>

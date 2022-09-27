@@ -5,7 +5,7 @@ import Ripple from './components/Ripple';
 const RippleEffect: FC = () => {
 
     const onTap = () => {
-
+        // console.log('TAPPING');
     }
   return (
     <View style={styles.container}>
@@ -13,7 +13,7 @@ const RippleEffect: FC = () => {
             style={styles.ripple}
             onTap={onTap}
         >
-            <Text> Tap </Text>
+            <Text style={{ fontFamily: 'Gotham', fontSize: 25}}> Tap </Text>
         </Ripple>
     </View>
   )
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         height: 200,
         backgroundColor: '#fff',
          // shadow for ANDROID
-         elevation: 2,
+         elevation: 1,
          // Shadow for IOS
          shadowOffset: {
              width: 0,
@@ -42,7 +42,8 @@ const styles = StyleSheet.create({
          shadowOpacity: 0.05,
          shadowRadius: 10,
          alignItems: 'center',
-         justifyContent: 'center'
+         justifyContent: 'center',
+         borderRadius: 20
     },
     effect: {
 
