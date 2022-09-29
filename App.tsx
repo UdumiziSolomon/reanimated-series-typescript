@@ -14,7 +14,7 @@ const App = () => {
 
   // Handle Splash Configuration
   const isLoadingComplete = useCachedResources();
-   //  NB: Set Reanimated Plugin in babel.config.js ==> plugins: ['react-native-reanimated/plugin]
+   //  NB: Set Reanimated Plugin in babel.config.js ==> plugins: ['react-native-reanimated/plugin]  => for worklet function
 
   if (!isLoadingComplete) {
     return null;
