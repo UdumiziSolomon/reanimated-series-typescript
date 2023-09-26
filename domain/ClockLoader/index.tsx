@@ -48,6 +48,6 @@ const styles = StyleSheet.create({
     top: 0,
     marginTop: 60,
     fontSize: 25,
-    color: '#fff'
+    color: '#fff',
   }
 })

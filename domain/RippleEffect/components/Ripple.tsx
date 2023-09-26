@@ -6,6 +6,7 @@ import Animated, { runOnJS, useAnimatedGestureHandler, useAnimatedStyle, useShar
 interface RippleProps {
     style? : StyleProp<ViewStyle>;
     onTap?: () => void;
+    children: any;
 }
 
 const Ripple: FC<RippleProps> = ({ style, onTap, children }) => {

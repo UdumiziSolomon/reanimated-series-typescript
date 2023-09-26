@@ -43,7 +43,7 @@ const Intro: FC = () => {
         // *n = number of repitition, 
         // *b = boolean for reverse
 
-        scaleValue.value = withRepeat(withSpring(2), 4, true)  // ==> repeat(*s,*n,*b)
+        scaleValue.value = withRepeat(withSpring(2), 10, true)  // ==> repeat(*s,*n,*b)
 
 
     }, []);
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     square: {
         width: SQUARE_SIZE,
         height: SQUARE_SIZE,
-        backgroundColor: '#36ac'
+        backgroundColor: '#36ac',
     }
 })
 
